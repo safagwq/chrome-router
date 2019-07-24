@@ -53,7 +53,7 @@ var datas={
     // 用法一 : 直接url字符串对换
     'http://localhost:8080/banner/images/1.jpg' : 'https://www.baidu.com/img/bd_logo1.png?qua=high',
 
-    'https://safa.gitee.io/egret-typescript.js' : 'http://developer.egret.com/cn/tpl/simplebootx/Public/simpleboot/examples/vscode/js/typescript.js'
+    'https://safagwq.github.io/chrome-router-scripts/egret-typescript.js' : 'http://developer.egret.com/cn/tpl/simplebootx/Public/simpleboot/examples/vscode/js/typescript.js'
 
     // 用法二 : 正则
     // 'http://localhost:8888/a.js' : /http:\/\/www.google-analytics.com\/\w+.js/,
