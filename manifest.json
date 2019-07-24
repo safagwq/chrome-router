@@ -1,0 +1,27 @@
+{
+    "name": "chrome 路由",
+    "description": "chrome 路由",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "https://*/*",
+        "http://*/*"
+  ],
+  "background": {
+      "scripts": [ "background.js"]
+  },
+  "browser_action": {
+      "default_title": "Set this page's color.",
+      "default_popup": "popup.html"
+  },
+  "content_scripts": [
+      {
+          "matches": [ "file://*", "http://*/*", "https://*/*" ],
+          "js": ["js.js"],
+          "run_at":"document_start"
+      }
+  ]  
+}
